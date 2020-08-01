@@ -51,6 +51,8 @@ img{
   transition: 0.4s;
 }
 .mini_btn{
+  margin-top: 1%;
+  width: 400px;
   background-color: transparent;
   border-color: #f59342;
   cursor: pointer;
