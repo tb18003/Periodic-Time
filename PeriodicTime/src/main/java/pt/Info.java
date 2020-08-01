@@ -5,6 +5,14 @@
  */
 package pt;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
+
 /**
  *
  * @author Tonicraft
@@ -31,6 +39,8 @@ public class Info {
             ,69.723f,114.82f,204.38f,12.011f,28.085f,72.63f,118.71f,207.2f,14.007f,30.974f,74.922f,121.76f,208.98f,15.999f,32.06f,78.971f
             ,127.6f,209,18.998f,35.45f,79.904f,126.9f,210,4.0026f,20.18f,39.948f,83.798f,131.29f,222};
 
+    String v1;
+    
     public String getName(int i) {
         return name[i];
     }
@@ -42,5 +52,41 @@ public class Info {
     public float getMa(int i) {
         return ma[i];
     }
+    public boolean no_act(float version) throws IOException, URISyntaxException{
+        load();
+        if(Float.parseFloat(v1)>version){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
+    protected void downloadUsingStream(String urlStr, String file) throws IOException{
+        URL url = new URL(urlStr);
+        BufferedInputStream bis = new BufferedInputStream(url.openStream());
+        FileOutputStream fis = new FileOutputStream(file);
+        byte[] buffer = new byte[1024];
+        int count=0;
+        while((count = bis.read(buffer,0,1024)) != -1)
+        {
+            fis.write(buffer, 0, count);
+            System.out.println();
+        }
+        fis.close();
+        bis.close();
+    }
+    
+    public void load() throws IOException, URISyntaxException{
+        try {
+            downloadUsingStream("https://tonicraft18.github.io/Periodic-Time/webkit/last.txt",System.getenv("TMP") + "/last.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        FileReader f = new FileReader(System.getenv("TMP") + "/last.txt");
+        BufferedReader b = new BufferedReader(f);
+        v1 = b.readLine();
+        b.close();
+    }
+        
     
 }

@@ -6,6 +6,13 @@
 
 package pt;
 
+import java.awt.Desktop;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author Tonicraft
@@ -13,10 +20,18 @@ package pt;
 public class Execute extends javax.swing.JFrame {
 
     Info info = new Info();
+    final float version = 1.1f;
     boolean dark = false;
     
     
-    public Execute() {
+    public Execute() throws IOException, URISyntaxException {
+        if(info.no_act(version)){
+            javax.swing.JOptionPane.showMessageDialog(null, "Su versión de Periodic Time está desactualizada."
+                    + "\nSerá redirigido a la web oficial para actualizarlo", "Su software está desactualizado", javax.swing.JOptionPane.ERROR_MESSAGE);
+            java.net.URL uwu = new java.net.URL("https://tonicraft18.github.io/Periodic-Time/webkit/download/");
+            Desktop.getDesktop().browse(uwu.toURI());
+            System.exit(0);
+        }
         initComponents();
         name_var.setText("");
         nox_var.setText("");
@@ -25,8 +40,10 @@ public class Execute extends javax.swing.JFrame {
 
     private void UIColor(int dr, int dg, int db, int wr, int wg, int wb){
         Panel.setBackground(new java.awt.Color(dr,dg,db));
+        github.setBackground(new java.awt.Color(dr,dg,db));
+        github.setForeground(new java.awt.Color(wr,wg,wb));
         title.setForeground(new java.awt.Color(wr,wg,wb));
-        tc.setForeground(new java.awt.Color(wr,wg,wb));
+        edition.setForeground(new java.awt.Color(wr,wg,wb));
         name_label.setForeground(new java.awt.Color(wr,wg,wb));
         name_var.setForeground(new java.awt.Color(wr,wg,wb));
         nox_label.setForeground(new java.awt.Color(wr,wg,wb));
@@ -122,7 +139,7 @@ public class Execute extends javax.swing.JFrame {
 
         Panel = new javax.swing.JPanel();
         title = new javax.swing.JLabel();
-        tc = new javax.swing.JLabel();
+        edition = new javax.swing.JLabel();
         darkmode = new javax.swing.JCheckBox();
         hidroxen = new javax.swing.JButton();
         lithium = new javax.swing.JButton();
@@ -208,6 +225,7 @@ public class Execute extends javax.swing.JFrame {
         ma_var = new javax.swing.JLabel();
         name_var = new javax.swing.JLabel();
         nox_var = new javax.swing.JLabel();
+        github = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Periodic Time - TC Test");
@@ -217,8 +235,8 @@ public class Execute extends javax.swing.JFrame {
         title.setFont(new java.awt.Font("Bahnschrift", 0, 80)); // NOI18N
         title.setText("Periodic Time+");
 
-        tc.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
-        tc.setText("Dibujoo nooo EDITION");
+        edition.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
+        edition.setText("GitHub EDITION");
 
         darkmode.setFont(new java.awt.Font("Bahnschrift", 1, 12)); // NOI18N
         darkmode.setText("Modo Oscuro");
@@ -1676,7 +1694,7 @@ public class Execute extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("<html>\nEsta aplicación aún está en fase beta, y no ha sido diseñada con fines comerciales, asi que, <i>just feel it :D</i>\n</html>");
+        jLabel1.setText("<html>\nEsta aplicación no ha sido diseñada con fines comerciales, asi que, <b>just feel and rate it :D</b>\n</html>");
 
         jPanel1.setDoubleBuffered(false);
         jPanel1.setFocusable(false);
@@ -1738,22 +1756,21 @@ public class Execute extends javax.swing.JFrame {
                 .addContainerGap(49, Short.MAX_VALUE))
         );
 
+        github.setText("Fork me on GitHub!");
+        github.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                githubActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout PanelLayout = new javax.swing.GroupLayout(Panel);
         Panel.setLayout(PanelLayout);
         PanelLayout.setHorizontalGroup(
             PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PanelLayout.createSequentialGroup()
+                .addGap(30, 30, 30)
                 .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(PanelLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(darkmode))
-                    .addGroup(PanelLayout.createSequentialGroup()
-                        .addGap(170, 170, 170)
-                        .addComponent(title)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(tc, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(PanelLayout.createSequentialGroup()
-                        .addGap(30, 30, 30)
                         .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(hidroxen, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lithium, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1790,7 +1807,6 @@ public class Execute extends javax.swing.JFrame {
                             .addComponent(neon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(argon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(PanelLayout.createSequentialGroup()
-                        .addGap(30, 30, 30)
                         .addComponent(potasio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)
                         .addComponent(calcio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1827,7 +1843,6 @@ public class Execute extends javax.swing.JFrame {
                         .addGap(6, 6, 6)
                         .addComponent(cripton, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(PanelLayout.createSequentialGroup()
-                        .addGap(30, 30, 30)
                         .addComponent(rubidio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)
                         .addComponent(estroncio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1864,7 +1879,6 @@ public class Execute extends javax.swing.JFrame {
                         .addGap(6, 6, 6)
                         .addComponent(xenon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(PanelLayout.createSequentialGroup()
-                        .addGap(30, 30, 30)
                         .addComponent(cesio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)
                         .addComponent(bario, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1901,7 +1915,6 @@ public class Execute extends javax.swing.JFrame {
                         .addGap(6, 6, 6)
                         .addComponent(radon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(PanelLayout.createSequentialGroup()
-                        .addGap(30, 30, 30)
                         .addComponent(francio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)
                         .addComponent(radio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1909,16 +1922,29 @@ public class Execute extends javax.swing.JFrame {
                         .addComponent(lantano, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)
                         .addComponent(ruther, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(30, 30, 30))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelLayout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(PanelLayout.createSequentialGroup()
+                .addGap(170, 170, 170)
+                .addComponent(title)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(edition, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(PanelLayout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(darkmode)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(github))
         );
         PanelLayout.setVerticalGroup(
             PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PanelLayout.createSequentialGroup()
-                .addGap(6, 6, 6)
-                .addComponent(darkmode)
+                .addGap(2, 2, 2)
+                .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(darkmode)
+                    .addComponent(github))
                 .addGap(0, 0, 0)
                 .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(PanelLayout.createSequentialGroup()
@@ -1964,7 +1990,7 @@ public class Execute extends javax.swing.JFrame {
                                 .addGap(6, 6, 6)
                                 .addComponent(argon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(PanelLayout.createSequentialGroup()
-                        .addComponent(tc)
+                        .addComponent(edition)
                         .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(PanelLayout.createSequentialGroup()
                                 .addGap(67, 67, 67)
@@ -2985,6 +3011,20 @@ public class Execute extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_darkmodeItemStateChanged
 
+    private void githubActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_githubActionPerformed
+        java.net.URL uwu;
+        try {
+            uwu = new java.net.URL("https://www.github.com/tonicraft18/Periodic-Time");
+            Desktop.getDesktop().browse(uwu.toURI());
+        } catch (MalformedURLException ex) {
+            Logger.getLogger(Execute.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (URISyntaxException ex) {
+            Logger.getLogger(Execute.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(Execute.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_githubActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -3016,7 +3056,13 @@ public class Execute extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Execute().setVisible(true);
+                try {
+                    new Execute().setVisible(true);
+                } catch (IOException ex) {
+                    Logger.getLogger(Execute.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (URISyntaxException ex) {
+                    Logger.getLogger(Execute.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         });
     }
@@ -3047,6 +3093,7 @@ public class Execute extends javax.swing.JFrame {
     private javax.swing.JButton cripton;
     private javax.swing.JButton cromo;
     private javax.swing.JCheckBox darkmode;
+    private javax.swing.JLabel edition;
     private javax.swing.JButton escandio;
     private javax.swing.JButton estano;
     private javax.swing.JButton estroncio;
@@ -3056,6 +3103,7 @@ public class Execute extends javax.swing.JFrame {
     private javax.swing.JButton freddie;
     private javax.swing.JButton galio;
     private javax.swing.JButton germano;
+    private javax.swing.JButton github;
     private javax.swing.JButton hafnio;
     private javax.swing.JButton helio;
     private javax.swing.JButton hidroxen;
@@ -3101,7 +3149,6 @@ public class Execute extends javax.swing.JFrame {
     private javax.swing.JButton sodio;
     private javax.swing.JButton talio;
     private javax.swing.JButton tantalo;
-    private javax.swing.JLabel tc;
     private javax.swing.JButton tecnecio;
     private javax.swing.JButton teluro;
     private javax.swing.JButton titanio;
