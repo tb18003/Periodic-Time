@@ -12,15 +12,29 @@ h3{
   color: #4a4a4a;
 }
 .pa{
-  font-size: 20px;
-  margin-left: 50%;
+  color: #757575;
+  font-size: 36px;
   position: sticky;
   font-family: 'Itim', sans-serif;
 }
 .t_bk{
+  margin: -7px;
   padding: 20px;
   background-color: #ffd45c;
 }
 .tab{
   margin-top: 5%;
+}
+.r_text{
+  margin-left: 5%;
+}
+.l_text{
+  margin-right: 5%;
+}
+tr{
+  margin: 10px;
+}
+img{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
