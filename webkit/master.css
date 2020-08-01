@@ -6,9 +6,12 @@ h1{
   font-size: 78px;
   color: #4a4a4a;
 }
-h3{
+h3, h2{
   font-family: 'Oxygen', sans-serif;
   color: #4a4a4a;
+}
+h2{
+  font-size: 36px;
 }
 .pa{
   color: #757575;
@@ -45,8 +48,27 @@ img{
   font-size: 62px;
   font-family: 'Itim', sans-serif;
   padding: 20px;
-  transition: 1s;
+  transition: 0.4s;
 }
-.btn:hover{
+.mini_btn{
+  background-color: transparent;
+  border-color: #f59342;
+  cursor: pointer;
+  border-radius: 72px;
+  font-size: 32px;
+  font-family: 'Itim', sans-serif;
+  padding: 10px;
+  transition: 0.4s;
+}
+.btn:hover, .mini_btn:hover, .back:hover{
   background-color: #f59342;
+}
+.back{
+  font-family: 'Itim', sans-serif;
+  font-size: 18px;
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: #f59342;
+  cursor: pointer;
+  transition: 0.4s;
 }
