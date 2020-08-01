@@ -1,5 +1,5 @@
 body{
-  display: block;
+  display: grid;
   background-color: #fcba03;
 }
 h1{
@@ -12,9 +12,15 @@ h3{
   color: #4a4a4a;
 }
 .pa{
+  font-size: 20px;
+  margin-left: 50%;
+  position: sticky;
   font-family: 'Itim', sans-serif;
 }
 .t_bk{
   padding: 20px;
   background-color: #ffd45c;
+}
+.tab{
+  margin-top: 5%;
 }
