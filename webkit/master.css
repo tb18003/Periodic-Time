@@ -1,5 +1,4 @@
 body{
-  display: grid;
   background-color: #fcba03;
 }
 h1{
@@ -37,4 +36,17 @@ tr{
 img{
   margin-top: 5%;
   margin-bottom: 5%;
+}
+.btn{
+  background-color: transparent;
+  border-color: #f59342;
+  cursor: pointer;
+  border-radius: 72px;
+  font-size: 62px;
+  font-family: 'Itim', sans-serif;
+  padding: 20px;
+  transition: 1s;
+}
+.btn:hover{
+  background-color: #f59342;
 }
