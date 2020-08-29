@@ -7,14 +7,42 @@
     <meta charset="utf-8">
     <title>Periodic Time</title>
   </head>
+  <script>
+    window.onload = () => {
+      function u(){
+        var nav = window.navigator.appVersion.toLowerCase()
+        if(nav.indexOf('win') != -1){
+		      so = 'Versi&oacute;n m&aacute;s reciente para Windows'
+	      }
+	      else if(nav.indexOf('linux') != -1){
+		      so = 'Versi&oacute;n m&aacute;s reciente para Linux'
+	      }
+	      else if(nav.indexOf('mac') != -1){
+		      so = 'Versi&oacute;n m&aacute;s reciente para Mac'
+        }else{
+          so = 'Aplicaci&oacute;n no compatible con su Sistema Operativo'
+        }
+        return so
+      }
+      so = u()
+      if(so === "Aplicaci&oacute;n no compatible con su Sistema Operativo"){
+        document.getElementById('bttn').innerHTML = '<h2>'+so+'</h2>'
+      }else{
+        document.getElementById('f').innerHTML = '<a href="gh/PT-GH.zip" download><button class="semi_btn">'+so+' </button></a>'
+      }
+    }
+  </script>
+
   <body>
     <div class="t_bk">
       <h1 align="center">Periodic Time</h1>
       <h3 align="center">Un programa en Java sobre la Tabla Peri&oacute;dica :D</h3>
     </div>
-      <h2 align="center">Versiones</h2>
-    <div align="center">
-      <a href="gh/PT-GH.zip" download><button class="mini_btn">Edici&oacute;n GitHub</button></a><br>
+    <div align="center" id="bttn">
+      <div id="f">
+
+      </div>
+      <h3 align="center">Otras versiones</h3>
       <a href="dbn/PT-DBN.zip" download><button class="mini_btn">Edici&oacute;n Dibujoo nooo</button></a><br>
       <a href="pre-alpha/pre-alpha.zip" download><button class="mini_btn">Pre-Alpha (solo .exe)</button></a>
     </div>
