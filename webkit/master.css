@@ -3,7 +3,7 @@ body{
 }
 h1{
   font-family: 'Oxygen', sans-serif;
-  font-size: 78px;
+  font-size: 400%;
   color: #4a4a4a;
 }
 h3, h2{
@@ -11,14 +11,14 @@ h3, h2{
   color: #4a4a4a;
 }
 h3{
-  font-size: 24px;
+  font-size: 150%;
 }
 h2{
   font-size: 36px;
 }
 .pa{
   color: #757575;
-  font-size: 200%;
+  font-size: 175%;
   position: sticky;
   font-family: 'Itim', sans-serif;
 }
@@ -50,7 +50,7 @@ img{
   border-color: #f59342;
   cursor: pointer;
   border-radius: 72px;
-  font-size: 62px;
+  font-size: 250%;
   font-family: 'Itim', sans-serif;
   padding: 20px;
   transition: 0.4s;
