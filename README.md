@@ -4,4 +4,4 @@ Periodic Time is a multi-devices program, which shows the properties of chemical
 This app is made just for discover the amazing world of programming, and for learn it!<br>
 
 
-It is totally free, do whatever you want it!
+It is totally free, do whatever you want with it!
