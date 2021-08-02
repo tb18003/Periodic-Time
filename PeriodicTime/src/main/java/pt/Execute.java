@@ -20,7 +20,7 @@ import java.util.logging.Logger;
 public class Execute extends javax.swing.JFrame {
 
     Info info = new Info();
-    final float version = 1.1f;
+    final float version = 1.2f;
     boolean dark = false;
     
     
@@ -236,7 +236,7 @@ public class Execute extends javax.swing.JFrame {
         title.setText("Periodic Time+");
 
         edition.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
-        edition.setText("GitHub EDITION");
+        edition.setText("Alcachofa EDITION");
 
         darkmode.setFont(new java.awt.Font("Bahnschrift", 1, 12)); // NOI18N
         darkmode.setText("Modo Oscuro");
@@ -252,7 +252,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         hidroxen.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        hidroxen.setForeground(new java.awt.Color(0, 0, 0));
         hidroxen.setText("H");
         hidroxen.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         hidroxen.setContentAreaFilled(false);
@@ -271,7 +270,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         lithium.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        lithium.setForeground(new java.awt.Color(0, 0, 0));
         lithium.setText("Li");
         lithium.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         lithium.setContentAreaFilled(false);
@@ -290,7 +288,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         potasio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        potasio.setForeground(new java.awt.Color(0, 0, 0));
         potasio.setText("K");
         potasio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         potasio.setContentAreaFilled(false);
@@ -309,7 +306,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         sodio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        sodio.setForeground(new java.awt.Color(0, 0, 0));
         sodio.setText("Na");
         sodio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         sodio.setContentAreaFilled(false);
@@ -328,7 +324,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         rubidio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        rubidio.setForeground(new java.awt.Color(0, 0, 0));
         rubidio.setText("Rb");
         rubidio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         rubidio.setContentAreaFilled(false);
@@ -347,7 +342,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         cesio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        cesio.setForeground(new java.awt.Color(0, 0, 0));
         cesio.setText("Cs");
         cesio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         cesio.setContentAreaFilled(false);
@@ -366,7 +360,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         francio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        francio.setForeground(new java.awt.Color(0, 0, 0));
         francio.setText("Fr");
         francio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         francio.setContentAreaFilled(false);
@@ -385,7 +378,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         berilio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        berilio.setForeground(new java.awt.Color(0, 0, 0));
         berilio.setText("Be");
         berilio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         berilio.setContentAreaFilled(false);
@@ -403,7 +395,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         magnes.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        magnes.setForeground(new java.awt.Color(0, 0, 0));
         magnes.setText("Mg");
         magnes.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         magnes.setContentAreaFilled(false);
@@ -422,7 +413,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         calcio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        calcio.setForeground(new java.awt.Color(0, 0, 0));
         calcio.setText("Ca");
         calcio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         calcio.setContentAreaFilled(false);
@@ -441,7 +431,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         estroncio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        estroncio.setForeground(new java.awt.Color(0, 0, 0));
         estroncio.setText("Sr");
         estroncio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         estroncio.setContentAreaFilled(false);
@@ -460,7 +449,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         bario.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        bario.setForeground(new java.awt.Color(0, 0, 0));
         bario.setText("Ba");
         bario.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         bario.setContentAreaFilled(false);
@@ -479,7 +467,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         radio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        radio.setForeground(new java.awt.Color(0, 0, 0));
         radio.setText("Ra");
         radio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         radio.setContentAreaFilled(false);
@@ -498,7 +485,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         escandio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        escandio.setForeground(new java.awt.Color(0, 0, 0));
         escandio.setText("Sc");
         escandio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         escandio.setContentAreaFilled(false);
@@ -517,7 +503,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         itrio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        itrio.setForeground(new java.awt.Color(0, 0, 0));
         itrio.setText("Y");
         itrio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         itrio.setContentAreaFilled(false);
@@ -536,7 +521,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         lantano.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        lantano.setForeground(new java.awt.Color(0, 0, 0));
         lantano.setText("Ac");
         lantano.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         lantano.setContentAreaFilled(false);
@@ -555,7 +539,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         actinio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        actinio.setForeground(new java.awt.Color(0, 0, 0));
         actinio.setText("La");
         actinio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         actinio.setContentAreaFilled(false);
@@ -574,7 +557,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         titanio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        titanio.setForeground(new java.awt.Color(0, 0, 0));
         titanio.setText("Ti");
         titanio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         titanio.setContentAreaFilled(false);
@@ -593,7 +575,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         circonio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        circonio.setForeground(new java.awt.Color(0, 0, 0));
         circonio.setText("Zr");
         circonio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         circonio.setContentAreaFilled(false);
@@ -612,7 +593,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         hafnio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        hafnio.setForeground(new java.awt.Color(0, 0, 0));
         hafnio.setText("Hf");
         hafnio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         hafnio.setContentAreaFilled(false);
@@ -631,7 +611,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         ruther.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        ruther.setForeground(new java.awt.Color(0, 0, 0));
         ruther.setText("Rf");
         ruther.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         ruther.setContentAreaFilled(false);
@@ -650,7 +629,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         vanadio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        vanadio.setForeground(new java.awt.Color(0, 0, 0));
         vanadio.setText("V");
         vanadio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         vanadio.setContentAreaFilled(false);
@@ -669,7 +647,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         niobio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        niobio.setForeground(new java.awt.Color(0, 0, 0));
         niobio.setText("Nb");
         niobio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         niobio.setContentAreaFilled(false);
@@ -688,7 +665,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         tantalo.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        tantalo.setForeground(new java.awt.Color(0, 0, 0));
         tantalo.setText("Ta");
         tantalo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         tantalo.setContentAreaFilled(false);
@@ -707,7 +683,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         cromo.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        cromo.setForeground(new java.awt.Color(0, 0, 0));
         cromo.setText("Cr");
         cromo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         cromo.setContentAreaFilled(false);
@@ -726,7 +701,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         molibdeno.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        molibdeno.setForeground(new java.awt.Color(0, 0, 0));
         molibdeno.setText("Mo");
         molibdeno.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         molibdeno.setContentAreaFilled(false);
@@ -745,7 +719,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         volfra.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        volfra.setForeground(new java.awt.Color(0, 0, 0));
         volfra.setText("W");
         volfra.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         volfra.setContentAreaFilled(false);
@@ -764,7 +737,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         tecnecio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        tecnecio.setForeground(new java.awt.Color(0, 0, 0));
         tecnecio.setText("Tc");
         tecnecio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         tecnecio.setContentAreaFilled(false);
@@ -783,7 +755,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         renio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        renio.setForeground(new java.awt.Color(0, 0, 0));
         renio.setText("Re");
         renio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         renio.setContentAreaFilled(false);
@@ -802,7 +773,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         manganeso.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        manganeso.setForeground(new java.awt.Color(0, 0, 0));
         manganeso.setText("Mn");
         manganeso.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         manganeso.setContentAreaFilled(false);
@@ -821,7 +791,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         hierro.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        hierro.setForeground(new java.awt.Color(0, 0, 0));
         hierro.setText("Fe");
         hierro.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         hierro.setContentAreaFilled(false);
@@ -840,7 +809,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         rutenio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        rutenio.setForeground(new java.awt.Color(0, 0, 0));
         rutenio.setText("Ru");
         rutenio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         rutenio.setContentAreaFilled(false);
@@ -859,7 +827,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         osmio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        osmio.setForeground(new java.awt.Color(0, 0, 0));
         osmio.setText("Os");
         osmio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         osmio.setContentAreaFilled(false);
@@ -878,7 +845,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         cobalto.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        cobalto.setForeground(new java.awt.Color(0, 0, 0));
         cobalto.setText("Co");
         cobalto.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         cobalto.setContentAreaFilled(false);
@@ -897,7 +863,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         rodio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        rodio.setForeground(new java.awt.Color(0, 0, 0));
         rodio.setText("Rh");
         rodio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         rodio.setContentAreaFilled(false);
@@ -916,7 +881,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         iridio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        iridio.setForeground(new java.awt.Color(0, 0, 0));
         iridio.setText("Ir");
         iridio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         iridio.setContentAreaFilled(false);
@@ -935,7 +899,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         niquel.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        niquel.setForeground(new java.awt.Color(0, 0, 0));
         niquel.setText("Ni");
         niquel.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         niquel.setContentAreaFilled(false);
@@ -954,7 +917,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         paladio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        paladio.setForeground(new java.awt.Color(0, 0, 0));
         paladio.setText("Pd");
         paladio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         paladio.setContentAreaFilled(false);
@@ -973,7 +935,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         platino.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        platino.setForeground(new java.awt.Color(0, 0, 0));
         platino.setText("Pt");
         platino.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         platino.setContentAreaFilled(false);
@@ -992,7 +953,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         cobre.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        cobre.setForeground(new java.awt.Color(0, 0, 0));
         cobre.setText("Cu");
         cobre.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         cobre.setContentAreaFilled(false);
@@ -1011,7 +971,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         plata.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        plata.setForeground(new java.awt.Color(0, 0, 0));
         plata.setText("Ag");
         plata.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         plata.setContentAreaFilled(false);
@@ -1030,7 +989,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         oro.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        oro.setForeground(new java.awt.Color(0, 0, 0));
         oro.setText("Au");
         oro.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         oro.setContentAreaFilled(false);
@@ -1049,7 +1007,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         cinc.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        cinc.setForeground(new java.awt.Color(0, 0, 0));
         cinc.setText("Zn");
         cinc.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         cinc.setContentAreaFilled(false);
@@ -1068,7 +1025,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         cadmio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        cadmio.setForeground(new java.awt.Color(0, 0, 0));
         cadmio.setText("Cd");
         cadmio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         cadmio.setContentAreaFilled(false);
@@ -1087,7 +1043,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         freddie.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        freddie.setForeground(new java.awt.Color(0, 0, 0));
         freddie.setText("Hg");
         freddie.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         freddie.setContentAreaFilled(false);
@@ -1106,7 +1061,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         boro.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        boro.setForeground(new java.awt.Color(0, 0, 0));
         boro.setText("B");
         boro.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         boro.setContentAreaFilled(false);
@@ -1125,7 +1079,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         aluminio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        aluminio.setForeground(new java.awt.Color(0, 0, 0));
         aluminio.setText("Al");
         aluminio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         aluminio.setContentAreaFilled(false);
@@ -1144,7 +1097,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         galio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        galio.setForeground(new java.awt.Color(0, 0, 0));
         galio.setText("Ga");
         galio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         galio.setContentAreaFilled(false);
@@ -1163,7 +1115,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         indio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        indio.setForeground(new java.awt.Color(0, 0, 0));
         indio.setText("In");
         indio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         indio.setContentAreaFilled(false);
@@ -1182,7 +1133,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         talio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        talio.setForeground(new java.awt.Color(0, 0, 0));
         talio.setText("Tl");
         talio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         talio.setContentAreaFilled(false);
@@ -1201,7 +1151,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         carbono.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        carbono.setForeground(new java.awt.Color(0, 0, 0));
         carbono.setText("C");
         carbono.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         carbono.setContentAreaFilled(false);
@@ -1220,7 +1169,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         silicio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        silicio.setForeground(new java.awt.Color(0, 0, 0));
         silicio.setText("Si");
         silicio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         silicio.setContentAreaFilled(false);
@@ -1239,7 +1187,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         germano.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        germano.setForeground(new java.awt.Color(0, 0, 0));
         germano.setText("Ge");
         germano.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         germano.setContentAreaFilled(false);
@@ -1258,7 +1205,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         estano.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        estano.setForeground(new java.awt.Color(0, 0, 0));
         estano.setText("Sn");
         estano.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         estano.setContentAreaFilled(false);
@@ -1277,7 +1223,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         plomo.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        plomo.setForeground(new java.awt.Color(0, 0, 0));
         plomo.setText("Pb");
         plomo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         plomo.setContentAreaFilled(false);
@@ -1296,7 +1241,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         nitrogen.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        nitrogen.setForeground(new java.awt.Color(0, 0, 0));
         nitrogen.setText("N");
         nitrogen.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         nitrogen.setContentAreaFilled(false);
@@ -1315,7 +1259,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         fosforo.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        fosforo.setForeground(new java.awt.Color(0, 0, 0));
         fosforo.setText("P");
         fosforo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         fosforo.setContentAreaFilled(false);
@@ -1334,7 +1277,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         arsenico.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        arsenico.setForeground(new java.awt.Color(0, 0, 0));
         arsenico.setText("As");
         arsenico.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         arsenico.setContentAreaFilled(false);
@@ -1353,7 +1295,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         antinovio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        antinovio.setForeground(new java.awt.Color(0, 0, 0));
         antinovio.setText("Sb");
         antinovio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         antinovio.setContentAreaFilled(false);
@@ -1372,7 +1313,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         bismuto.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        bismuto.setForeground(new java.awt.Color(0, 0, 0));
         bismuto.setText("Bi");
         bismuto.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         bismuto.setContentAreaFilled(false);
@@ -1391,7 +1331,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         oxigeno.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        oxigeno.setForeground(new java.awt.Color(0, 0, 0));
         oxigeno.setText("O");
         oxigeno.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         oxigeno.setContentAreaFilled(false);
@@ -1410,7 +1349,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         azufre.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        azufre.setForeground(new java.awt.Color(0, 0, 0));
         azufre.setText("S");
         azufre.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         azufre.setContentAreaFilled(false);
@@ -1429,7 +1367,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         selenio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        selenio.setForeground(new java.awt.Color(0, 0, 0));
         selenio.setText("Se");
         selenio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         selenio.setContentAreaFilled(false);
@@ -1448,7 +1385,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         teluro.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        teluro.setForeground(new java.awt.Color(0, 0, 0));
         teluro.setText("Te");
         teluro.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         teluro.setContentAreaFilled(false);
@@ -1467,7 +1403,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         polonio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        polonio.setForeground(new java.awt.Color(0, 0, 0));
         polonio.setText("Po");
         polonio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         polonio.setContentAreaFilled(false);
@@ -1486,7 +1421,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         fluor.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        fluor.setForeground(new java.awt.Color(0, 0, 0));
         fluor.setText("F");
         fluor.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         fluor.setContentAreaFilled(false);
@@ -1505,7 +1439,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         cloro.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        cloro.setForeground(new java.awt.Color(0, 0, 0));
         cloro.setText("Cl");
         cloro.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         cloro.setContentAreaFilled(false);
@@ -1524,7 +1457,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         bromo.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        bromo.setForeground(new java.awt.Color(0, 0, 0));
         bromo.setText("Br");
         bromo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         bromo.setContentAreaFilled(false);
@@ -1543,7 +1475,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         yodo.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        yodo.setForeground(new java.awt.Color(0, 0, 0));
         yodo.setText("I");
         yodo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         yodo.setContentAreaFilled(false);
@@ -1562,7 +1493,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         astato.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        astato.setForeground(new java.awt.Color(0, 0, 0));
         astato.setText("At");
         astato.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         astato.setContentAreaFilled(false);
@@ -1581,7 +1511,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         helio.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        helio.setForeground(new java.awt.Color(0, 0, 0));
         helio.setText("He");
         helio.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         helio.setContentAreaFilled(false);
@@ -1600,7 +1529,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         neon.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        neon.setForeground(new java.awt.Color(0, 0, 0));
         neon.setText("Ne");
         neon.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         neon.setContentAreaFilled(false);
@@ -1619,7 +1547,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         argon.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        argon.setForeground(new java.awt.Color(0, 0, 0));
         argon.setText("Ar");
         argon.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         argon.setContentAreaFilled(false);
@@ -1638,7 +1565,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         cripton.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        cripton.setForeground(new java.awt.Color(0, 0, 0));
         cripton.setText("Kr");
         cripton.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         cripton.setContentAreaFilled(false);
@@ -1657,7 +1583,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         xenon.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        xenon.setForeground(new java.awt.Color(0, 0, 0));
         xenon.setText("Xe");
         xenon.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         xenon.setContentAreaFilled(false);
@@ -1676,7 +1601,6 @@ public class Execute extends javax.swing.JFrame {
         });
 
         radon.setFont(new java.awt.Font("Bahnschrift", 0, 24)); // NOI18N
-        radon.setForeground(new java.awt.Color(0, 0, 0));
         radon.setText("Ra");
         radon.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         radon.setContentAreaFilled(false);
@@ -1781,31 +1705,31 @@ public class Execute extends javax.swing.JFrame {
                             .addComponent(magnes, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(50, 50, 50)
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(2, 2, 2)
                         .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(boro, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(aluminio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(6, 6, 6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(carbono, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(silicio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(6, 6, 6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(nitrogen, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(fosforo, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(6, 6, 6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(oxigeno, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(azufre, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(6, 6, 6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(fluor, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(cloro, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(6, 6, 6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(helio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(neon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(argon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(argon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(helio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(PanelLayout.createSequentialGroup()
                         .addComponent(potasio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)
@@ -1922,7 +1846,7 @@ public class Execute extends javax.swing.JFrame {
                         .addComponent(lantano, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)
                         .addComponent(ruther, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(14, 14, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -1961,43 +1885,40 @@ public class Execute extends javax.swing.JFrame {
                                 .addGap(82, 82, 82)
                                 .addComponent(berilio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(6, 6, 6)
-                                .addComponent(magnes, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(PanelLayout.createSequentialGroup()
-                                .addGap(82, 82, 82)
-                                .addComponent(boro, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(6, 6, 6)
-                                .addComponent(aluminio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(PanelLayout.createSequentialGroup()
-                                .addGap(82, 82, 82)
-                                .addComponent(nitrogen, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(6, 6, 6)
-                                .addComponent(fosforo, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(PanelLayout.createSequentialGroup()
-                                .addGap(82, 82, 82)
-                                .addComponent(oxigeno, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(6, 6, 6)
-                                .addComponent(azufre, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(PanelLayout.createSequentialGroup()
-                                .addGap(82, 82, 82)
-                                .addComponent(fluor, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(6, 6, 6)
-                                .addComponent(cloro, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(PanelLayout.createSequentialGroup()
-                                .addGap(16, 16, 16)
-                                .addComponent(helio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(6, 6, 6)
-                                .addComponent(neon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(6, 6, 6)
-                                .addComponent(argon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(magnes, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(PanelLayout.createSequentialGroup()
                         .addComponent(edition)
                         .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(PanelLayout.createSequentialGroup()
-                                .addGap(67, 67, 67)
-                                .addComponent(carbono, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(6, 6, 6)
-                                .addComponent(silicio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(1, 1, 1)
+                                .addComponent(helio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(PanelLayout.createSequentialGroup()
+                                        .addComponent(nitrogen, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)
+                                        .addComponent(fosforo, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(PanelLayout.createSequentialGroup()
+                                        .addComponent(carbono, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)
+                                        .addComponent(silicio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(PanelLayout.createSequentialGroup()
+                                        .addComponent(oxigeno, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)
+                                        .addComponent(azufre, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(PanelLayout.createSequentialGroup()
+                                        .addComponent(fluor, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)
+                                        .addComponent(cloro, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(PanelLayout.createSequentialGroup()
+                                        .addComponent(neon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)
+                                        .addComponent(argon, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                    .addGroup(PanelLayout.createSequentialGroup()
+                        .addComponent(boro, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(6, 6, 6)
+                        .addComponent(aluminio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(6, 6, 6)
                 .addGroup(PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(potasio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2323,7 +2244,9 @@ public class Execute extends javax.swing.JFrame {
     }//GEN-LAST:event_fosforoMouseEntered
 
     private void nitrogenMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nitrogenMouseExited
-        // TODO add your handling code here:
+        name_var.setText("");
+        nox_var.setText("");
+        ma_var.setText("");
     }//GEN-LAST:event_nitrogenMouseExited
 
     private void nitrogenMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nitrogenMouseEntered
@@ -2795,9 +2718,9 @@ public class Execute extends javax.swing.JFrame {
     }//GEN-LAST:event_actinioMouseExited
 
     private void actinioMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actinioMouseEntered
-        name_var.setText(info.getName(16));
-        nox_var.setText(info.getNox(16));
-        ma_var.setText(String.valueOf(info.getMa(16)));
+        name_var.setText(info.getName(15));
+        nox_var.setText(info.getNox(15));
+        ma_var.setText(String.valueOf(info.getMa(15)));
     }//GEN-LAST:event_actinioMouseEntered
 
     private void lantanoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lantanoMouseExited
@@ -2807,9 +2730,9 @@ public class Execute extends javax.swing.JFrame {
     }//GEN-LAST:event_lantanoMouseExited
 
     private void lantanoMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lantanoMouseEntered
-        name_var.setText(info.getName(15));
-        nox_var.setText(info.getNox(15));
-        ma_var.setText(String.valueOf(info.getMa(15)));
+        name_var.setText(info.getName(16));
+        nox_var.setText(info.getNox(16));
+        ma_var.setText(String.valueOf(info.getMa(16)));
     }//GEN-LAST:event_lantanoMouseEntered
 
     private void itrioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_itrioMouseExited
